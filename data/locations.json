@@ -116,7 +116,7 @@
   {
     "name": "W1D3 -  Harmonizer Pin Flashback",
     "region": "A-East",
-    "requires": "|A-East|",
+    "requires": "|A-East| AND |Dogenzaka|",
     "category": []
   },
   {
@@ -140,13 +140,13 @@
   {
     "name": "W1D3 - Scan man on concert stage after learning about memes",
     "region": "A-East",
-    "requires": "|A-East|",
+    "requires": "|A-East| AND |Shibukyu Main Store|",
     "category": []
   },
   {
     "name": "W1D3 - Defeat Vespertilio Canor",
     "region": "A-East",
-    "requires": "|A-East|",
+    "requires": "|A-East| AND |Shibukyu Main Store|",
     "category": []
   },
   {
@@ -246,7 +246,19 @@
     "category": []
   },
   {
+    "name": "W1D6 - Imprint at the Scramble",
+    "region": "Scramble Crossing",
+    "requires": "|Scramble Crossing|",
+    "category": []
+  },
+  {
     "name": "W1D6 - Clear wall to Center St. Entrance",
+    "region": "Center Street Entrance",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance|",
+    "category": []
+  },
+  {
+    "name": "W1D6 - Imprint at Center Street",
     "region": "Center Street Entrance",
     "requires": "|Scramble Crossing| AND |Center Street Entrance|",
     "category": []
@@ -257,6 +269,11 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance|",
     "category": []
   },
+  {
+    "name":"W1D6 - Imprint at Spain Hill",
+    "region": "Spain Hill",
+    "requires": "(|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Molco| AND |Spain Hill|) OR (|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall| AND |Spain Hill|)"
+  }
   {
     "name": "W1D6 - Learn about manipulating trends",
     "region": "Scramble Crossing",
