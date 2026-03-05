@@ -410,7 +410,7 @@
   {
     "name": "W1D7 - Defeat Ovis Cantus",
     "region": "Station Underpass",
-    "requires": "|Scramble Crossing| AND |Statue of Hachiko| AND |West Exit Bus Terminal| AND |Station Underpass|",
+    "requires": "|Scramble Crossing| AND |Statue of Hachiko| AND |West Exit Bus Terminal| AND |Station Underpass| AND |Ovis Cantus Key|",
     "victory": true,
     "category": [
       "W1D7"
