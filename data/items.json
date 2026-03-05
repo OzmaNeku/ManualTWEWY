@@ -216,5 +216,13 @@
     ],
     "count": 1,
     "progression":true
+  },
+  {
+    "name": "Leo Cantus Key",
+    "category": [
+      "Boss Key"
+    ],
+    "count": 1,
+    "progression":true
   }
 ]

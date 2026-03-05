@@ -748,7 +748,7 @@
   {
     "name": "W2D7 - Defeat Leo Cantus",
     "region": "Pork City",
-    "requires": "|Pork City|",
+    "requires": "|Pork City| AND |Leo Cantus Key|",
     "victory": true,
     "category":[
       "W2D7"
