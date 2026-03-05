@@ -216,5 +216,13 @@
     ],
     "count": 1,
     "useful": true
+  },
+  {
+    "name": "Ovis Cantus Key",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "useful":true
   }
 ]
