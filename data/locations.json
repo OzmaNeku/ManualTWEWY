@@ -378,7 +378,7 @@
   {
     "name": "W1D6 - Make Red Skull popular at the Scramble Crossing",
     "region": "Scramble Crossing",
-    "requires": "|Scramble Crossing| AND |Red Skull Pin|",
+    "requires": "|Scramble Crossing| AND |Red Skull Pin| AND {canReachLocation(W1D6 - Imprint at Spain Hill)}",
     "category": [
       "W1D6"
     ]
@@ -386,7 +386,7 @@
   {
     "name": "W1D6 - Make Red Skull popular at the 104 Building",
     "region": "104 Building",
-    "requires": "|Scramble Crossing| AND |104 Building| AND |Red Skull Pin|",
+    "requires": "|Scramble Crossing| AND |104 Building| AND |Red Skull Pin| AND {canReachLocation(W1D6 - Imprint at Spain Hill)}",
     "category": [
       "W1D6"
     ]
