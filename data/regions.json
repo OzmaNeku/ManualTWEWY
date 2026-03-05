@@ -1,91 +1,164 @@
 {
   "Scramble Crossing": {
     "starting": true,
-    "connects_to": [],
+    "connects_to": [
+      "Statue of Hachiko",
+      "Center Street Entrance",
+      "104 Building",
+      "Shibu Department Store"
+    ],
     "requires": ""
   },
   "Statue of Hachiko": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Scramble Crossing",
+      "West Exit Bus Terminal"
+    ],
+    "requires": "Statue of Hachiko"
   },
   "104 Building": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Scramble Crossing",
+      "Dogenzaka",
+      "Shibukyu Main Store"],
+    "requires": "104 Building"
   },
   "Shibu Department Store": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Scramble Crossing",
+      "Cadoi City"
+    ],
+    "requires": "Shibu Department Store"
   },
   "Cadoi City": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Shibu Department Store",
+      "Tower Records",
+      "Molco"],
+    "requires": "Cadoi City"
   },
   "Tower Records": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Cadoi City",
+      "Miyashita Park Underpass"
+    ],
+    "requires": "Tower Records"
   },
   "Miyashita Park Underpass": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Tower Records",
+      "Miyashita Park"
+    ],
+    "requires": "Miyashita Park Underpass"
   },
   "Miyashita Park": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Miyashita Park Underpass",
+      "Cat Street"
+    ],
+    "requires": "Miyashita Park"
   },
   "Cat Street": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Miyashita Park"
+    ],
+    "requires": "Cat Street"
   },
   "Shibukyu Main Store": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "104 Building",
+      "A-East"
+    ],
+    "requires": "Shibukyu Main Store"
   },
   "Center Street Entrance": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Scramble Crossing",
+      "AMX"
+    ],
+    "requires": "Center Street Entrance"
   },
   "AMX": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Center Street Entrance",
+      "Tipsy Tose Hall"
+    ],
+    "requires": "AMX"
   },
   "Tipsy Tose Hall": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "AMX",
+      "Spain Hill",
+      "Shibu-Q Heads"
+    ],
+    "requires": "Tipsy Tose Hall"
   },
   "Shibu-Q Heads": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Tipsy Tose Hall",
+      "Udagawa Back Streets"
+    ],
+    "requires": "Shibu-Q Heads"
+  },
+  "Udagawa Back Streets":{
+    "connects_to":[
+      "Shibu-Q Heads"
+    ],
+    "requires": "Udagawa Back Streets"
   },
   "Molco": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Spain Hill",
+      "Cadoi City"
+    ],
+    "requires": "Molco"
   },
   "Spain Hill": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Tipsy Tose Hall",
+      "Molco"
+    ],
+    "requires": "Spain Hill"
   },
   "West Exit Bus Terminal": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Statue of Hachiko",
+      "Station Underpass"
+    ],
+    "requires": "West Exit Bus Terminal"
   },
   "Station Underpass": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "West Exit Bus Terminal",
+      "Trail of the Sinner"
+    ],
+    "requires": "Station Underpass"
   },
   "Dogenzaka": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "104 Building",
+      "A-East",
+      "Pork City"
+    ],
+    "requires": "Dogenzaka"
   },
   "A-East": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Dogenzaka",
+      "Shibukyu Main Store"
+    ],
+    "requires": "A-East"
   },
   "Pork City": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Dogenzaka"
+    ],
+    "requires": "Pork City"
   },
   "Trail of the Sinner": {
-    "connects_to": [],
-    "requires": ""
+    "connects_to": [
+      "Station Underpass"
+    ],
+    "requires": "Trail of the Sinner"
   }
 }
