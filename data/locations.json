@@ -260,7 +260,7 @@
   {
     "name": "W1D6 - Learn about manipulating trends",
     "region": "Scramble Crossing",
-    "requires": "|Scramble Crossing|",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |Spain Hill|",
     "category": []
   },
   {
