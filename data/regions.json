@@ -1,0 +1,91 @@
+{
+  "Scramble Crossing": {
+    "starting": true,
+    "connects_to": [],
+    "requires": ""
+  },
+  "Statue of Hachiko": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "104 Building": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Shibu Department Store": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Cadoi City": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Tower Records": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Miyashita Park Underpass": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Miyashita Park": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Cat Street": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Shibukyu Main Store": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Center Street Entrance": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "AMX": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Tipsy Tose Hall": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Shibu-Q Heads": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Molco": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Spain Hill": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "West Exit Bus Terminal": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Station Underpass": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Dogenzaka": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "A-East": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Pork City": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Trail of the Sinner": {
+    "connects_to": [],
+    "requires": ""
+  }
+}

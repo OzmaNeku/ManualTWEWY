@@ -1,0 +1,297 @@
+[
+  {
+    "name": "W1D1 - Run, Dash, and Escape Tutorial",
+    "region": "Scramble Crossing",
+    "category": [],
+    "requires": ""
+  },
+  {
+    "name": "W1D1 - Drag and Neku Combat Tutorial",
+    "region": "Statue of Hachiko",
+    "requires": "|Statue of Hachiko|",
+    "category": []
+  },
+  {
+    "name": "W1D1 - Partner Tutorial",
+    "region": "104 Building",
+    "requires": "|Statue of Hachiko| AND |104 Building|",
+    "category": []
+  },
+  {
+    "name": "W1D1 - Partnered Combat Battle",
+    "region": "104 Building",
+    "requires": "|Statue of Hachiko| AND |104 Building|",
+    "category": []
+  },
+  {
+    "name": "W1D1 - Grizzly Battle",
+    "region": "104 Building",
+    "requires": "|Statue of Hachiko| AND |104 Building|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Attempt to leave Station Underpass",
+    "region": "Station Underpass",
+    "requires": "|Station Underpass|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Attempt to scan support Reaper",
+    "region": "Station Underpass",
+    "requires": "|Station Underpass|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Slash Tutorial",
+    "region": "Station Underpass",
+    "requires": "|Station Underpass|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Obstacles Tutorial",
+    "region": "Station Underpass",
+    "requires": "|Station Underpass|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Touch/tap tutorial",
+    "region": "Station Underpass",
+    "requires": "|Station Underpass|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Clear wall to West Exit Bus Terminal",
+    "region": "Station Underpass",
+    "requires": "|Station Underpass|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Meet Beat and Rhyme",
+    "region": "West Exit Bus Terminal",
+    "requires": "|Station Underpass| AND |West Exit Bus Terminal|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Clear wall to Statue of Hachiko",
+    "region": "West Exit Bus Terminal",
+    "requires": "|Station Underpass| AND |West Exit Bus Terminal|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Lift Hachiko's Cuse",
+    "region": "Statue of Hachiko",
+    "requires": "|Station Underpass| AND |West Exit Bus Terminal| AND |Statue of Hachiko|",
+    "category": []
+  },
+  {
+    "name": "W1D2 - Defeat the Metal Corehog",
+    "region": "Statue of Hachiko",
+    "requires": "|Station Underpass| AND |West Exit Bus Terminal| AND |Statue of Hachiko|",
+    "category": []
+  },
+  {
+    "name": "W1D3 - Flashback",
+    "region": "A-East",
+    "requires": "|A-East|",
+    "category": []
+  },
+  {
+    "name": "W1D3 - Reunite with Shiki",
+    "region": "A-East",
+    "requires": "|A-East|",
+    "category": []
+  },
+  {
+    "name": "W1D3 - Exit to A-East",
+    "region": "A-East",
+    "requires": "|A-East|",
+    "category": []
+  },
+  {
+    "name": "W1D3 - Enter a shop",
+    "region": "A-East",
+    "requires": "(|A-East| OR |Dogenzaka| OR |Shibukyu Main Store|)",
+    "category": []
+  },
+  {
+    "name": "W1D3 -  Harmonizer Pin Flashback",
+    "region": "A-East",
+    "requires": "|A-East|",
+    "category": []
+  },
+  {
+    "name": "W1D3 - Free the tech from the Noise",
+    "region": "Dogenzaka",
+    "requires": "|A-East| AND |Dogenzaka|",
+    "category": []
+  },
+  {
+    "name": "W1D3 - Clear wall to Shibukyu Main Store",
+    "region": "A-East",
+    "requires": "|A-East|",
+    "category": []
+  },
+  {
+    "name": "W1D3 - Learn about Memes",
+    "region": "Shibukyu Main Store",
+    "requires": "|A-East| AND |Shibukyu Main Store|",
+    "category": []
+  },
+  {
+    "name": "W1D3 - Scan man on concert stage after learning about memes",
+    "region": "A-East",
+    "requires": "|A-East|",
+    "category": []
+  },
+  {
+    "name": "W1D3 - Defeat Vespertilio Canor",
+    "region": "A-East",
+    "requires": "|A-East|",
+    "category": []
+  },
+  {
+    "name": "W1D4 - Speak to Beat and Rhyme",
+    "region": "104 Building",
+    "requires": "|104 Building|",
+    "category": []
+  },
+  {
+    "name": "W1D4 - Visit 104",
+    "region": "104 Building",
+    "requires": "|104 Building|",
+    "category": []
+  },
+  {
+    "name": "W1D4 - Travel to Scramble Crossing (One Time Event, will not occur on NG+)",
+    "region": "Scramble Crossing",
+    "requires": "|104 Building| AND |Scramble Crossing|",
+    "category": []
+  },
+  {
+    "name": "W1D4 - Clear wall to Shibu Dept. Store",
+    "region": "Scramble Crossing",
+    "requires": "|104 Building| AND |Scramble Crossing|",
+    "category": []
+  },
+  {
+    "name": "W1D4 - Loose Button ",
+    "region": "Shibu Department Store",
+    "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store|",
+    "category": []
+  },
+  {
+    "name": "W1D4 - Clear wall to Cadoi City",
+    "region": "Shibu Department Store",
+    "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store|",
+    "category": []
+  },
+  {
+    "name": "W1D4 - Meet Beat and Rhyme at Cadoi City",
+    "region": "Cadoi City",
+    "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City|",
+    "category": []
+  },
+  {
+    "name": "W1D4 - Tower Records Noise Fight",
+    "region": "Tower Records",
+    "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Tower Records|",
+    "category": []
+  },
+  {
+    "name": "W1D4 - Defeat the Swing Shark",
+    "region": "Tower Records",
+    "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Tower Records|",
+    "category": []
+  },
+  {
+    "name": "W1D5 - Play Reaper Creeper with 'Shrimp'",
+    "region": "Tipsy Tose Hall",
+    "requires": "|Tipsy Tose Hall|",
+    "category": []
+  },
+  {
+    "name": "W1D5 - Clear wall to Spain Hill",
+    "region": "Tipsy Tose Hall",
+    "requires": "|Tipsy Tose Hall|",
+    "category": []
+  },
+  {
+    "name": "W1D5 - Erase 3 or more Chump Noise symbols at Spain Hill",
+    "region": "Spain Hill",
+    "requires": "|Tipsy Tose Hall| AND |Spain Hill|",
+    "category": []
+  },
+  {
+    "name": "W1D5 - Erase final Negative Noise possessing Ai and Mina",
+    "region": "Spain Hill",
+    "requires": "|Tipsy Tose Hall| AND |Spain Hill|",
+    "category": []
+  },
+  {
+    "name": "W1D5 - Defeat the Circle Pit Grizzly",
+    "region": "Spain Hill",
+    "requires": "|Tipsy Tose Hall| AND |Spain Hill|",
+    "category": []
+  },
+  {
+    "name": "W1D6 - Red Skull Get",
+    "region": "Scramble Crossing",
+    "requires": "|Scramble Crossing|",
+    "category": []
+  },
+  {
+    "name": "W1D6 - Free Makoto from the Noise",
+    "region": "Scramble Crossing",
+    "requires": "|Scramble Crossing|",
+    "category": []
+  },
+  {
+    "name": "W1D6 - Clear wall to Center St. Entrance",
+    "region": "Center Street Entrance",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance|",
+    "category": []
+  },
+  {
+    "name": "W1D6 - Clear optional wall to AMX",
+    "region": "Center Street Entrance",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance|",
+    "category": []
+  },
+  {
+    "name": "W1D6 - Learn about manipulating trends",
+    "region": "Scramble Crossing",
+    "requires": "|Scramble Crossing|",
+    "category": []
+  },
+  {
+    "name": "W1D6 - Make Red Skull popular at the Scramble Crossing",
+    "region": "Scramble Crossing",
+    "requires": "|Scramble Crossing| AND |Red Skull Pin|",
+    "category": []
+  },
+  {
+    "name": "W1D6 - Make Red Skull popular at the 104 Building",
+    "region": "104 Building",
+    "requires": "|Scramble Crossing| AND |104 Building| AND |Red Skull Pin|",
+    "category": []
+  },
+  {
+    "name": "W1D7 - Clear wall to West Exit Bus Terminal",
+    "region": "Statue of Hachiko",
+    "requires": "|Scramble Crossing| AND |Statue of Hachiko|",
+    "category": []
+  },
+  {
+    "name": "W1D7 - Defeat Cornix Canor",
+    "region": "West Exit Bus Terminal",
+    "requires": "|Scramble Crossing| AND |Statue of Hachiko| AND |West Exit Bus Terminal|",
+    "category": []
+  },
+  {
+    "name": "W1D7 - Defeat Ovis Cantus",
+    "region": "Station Underpass",
+    "requires": "|Scramble Crossing| AND |Statue of Hachiko| AND |West Exit Bus Terminal| AND |Station Underpass|",
+    "victory": true,
+    "category": []
+  }
+]

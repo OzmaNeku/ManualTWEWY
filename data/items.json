@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Yen",
+    "category": [
+      "Filler Item"
+    ],
+    "count": 50,
+    "filler": true
+  },
+  {
+    "name": "Scramble Crossing",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Statue of Hachiko",
+    "category": [
+      "Location"
+    ],
+    "early": true,
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "104 Building",
+    "category": [
+      "Location"
+    ],
+    "early": true,
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shibu Department Store",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cadoi City",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Tower Records",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Miyashita Park Underpass",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Miyashita Park",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Cat Street",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shibukyu Main Store",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Center Street Entrance",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "AMX",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Tipsy Tose Hall",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Shibu-Q Heads",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Molco",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Spain Hill",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "West Exit Bus Terminal",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Station Underpass",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Dogenzaka",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "A-East",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Pork City",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Trail of the Sinner",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Red Skull Pin",
+    "category": [
+      "Pin"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
+    "name": "Scarletite",
+    "category": [
+      "Deck Slot"
+    ],
+    "count": 4,
+    "useful": true
+  },
+  {
+    "name": "Harmonizer Pin",
+    "category": [
+      "Fusion Attack"
+    ],
+    "count": 1,
+    "useful": true
+  }
+]
