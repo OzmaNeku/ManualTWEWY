@@ -652,7 +652,7 @@
   {
     "name": "W2D5 - Clear wall to Miyashita Park",
     "region": "Miyashita Park Underpass",
-    "requires": "|Miyashita Park Underpass| AND {canReachLocation(W2D5 - Clear wall to Miyashita Park Underpass",
+    "requires": "|Miyashita Park Underpass| AND {canReachLocation(W2D5 - Clear wall to Miyashita Park Underpass)}",
     "category": [
       "W2D5"
     ]
