@@ -186,6 +186,14 @@
     "progression": true
   },
   {
+    "name": "Udagawa Back Streets",
+    "category": [
+      "Location"
+    ],
+    "count": 1,
+    "progression": true
+  },
+  {
     "name": "Red Skull Pin",
     "category": [
       "Pin"
