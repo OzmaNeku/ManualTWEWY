@@ -154,7 +154,7 @@
   {
     "name": "W1D3 -  Harmonizer Pin Flashback",
     "region": "A-East",
-    "requires": "|A-East| AND |Dogenzaka|",
+    "requires": "|A-East|",
     "category": [
       "W1D3"
     ]
@@ -170,7 +170,7 @@
   {
     "name": "W1D3 - Clear wall to Shibukyu Main Store",
     "region": "A-East",
-    "requires": "|A-East|",
+    "requires": "|A-East| AND |Dogenzaka|",
     "category": [
       "W1D3"
     ]
@@ -178,7 +178,7 @@
   {
     "name": "W1D3 - Learn about Memes",
     "region": "Shibukyu Main Store",
-    "requires": "|A-East| AND |Shibukyu Main Store|",
+    "requires": "|A-East| AND |Shibukyu Main Store| AND |Dogenzaka|",
     "category": [
       "W1D3"
     ]
@@ -186,7 +186,7 @@
   {
     "name": "W1D3 - Scan man on concert stage after learning about memes",
     "region": "A-East",
-    "requires": "|A-East| AND |Shibukyu Main Store|",
+    "requires": "|A-East| AND |Shibukyu Main Store| AND |Dogenzaka|",
     "category": [
       "W1D3"
     ]
@@ -194,7 +194,7 @@
   {
     "name": "W1D3 - Defeat Vespertilio Canor",
     "region": "A-East",
-    "requires": "|A-East| AND |Shibukyu Main Store|",
+    "requires": "|A-East| AND |Shibukyu Main Store| AND |Dogenzaka|",
     "category": [
       "W1D3"
     ]
