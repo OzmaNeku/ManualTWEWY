@@ -1,13 +1,5 @@
 [
   {
-    "name": "Yen",
-    "category": [
-      "Filler Item"
-    ],
-    "count": 50,
-    "filler": true
-  },
-  {
     "name": "Scramble Crossing",
     "category": [
       "Location"
