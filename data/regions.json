@@ -14,76 +14,76 @@
       "Scramble Crossing",
       "West Exit Bus Terminal"
     ],
-    "requires": "Statue of Hachiko"
+    "requires": "|Statue of Hachiko|"
   },
   "104 Building": {
     "connects_to": [
       "Scramble Crossing",
       "Dogenzaka",
       "Shibukyu Main Store"],
-    "requires": "104 Building"
+    "requires": "|104 Building|"
   },
   "Shibu Department Store": {
     "connects_to": [
       "Scramble Crossing",
       "Cadoi City"
     ],
-    "requires": "Shibu Department Store"
+    "requires": "|Shibu Department Store|"
   },
   "Cadoi City": {
     "connects_to": [
       "Shibu Department Store",
       "Tower Records",
       "Molco"],
-    "requires": "Cadoi City"
+    "requires": "|Cadoi City|"
   },
   "Tower Records": {
     "connects_to": [
       "Cadoi City",
       "Miyashita Park Underpass"
     ],
-    "requires": "Tower Records"
+    "requires": "|Tower Records|"
   },
   "Miyashita Park Underpass": {
     "connects_to": [
       "Tower Records",
       "Miyashita Park"
     ],
-    "requires": "Miyashita Park Underpass"
+    "requires": "|Miyashita Park Underpass|"
   },
   "Miyashita Park": {
     "connects_to": [
       "Miyashita Park Underpass",
       "Cat Street"
     ],
-    "requires": "Miyashita Park"
+    "requires": "|Miyashita Park|"
   },
   "Cat Street": {
     "connects_to": [
       "Miyashita Park"
     ],
-    "requires": "Cat Street"
+    "requires": "|Cat Street|"
   },
   "Shibukyu Main Store": {
     "connects_to": [
       "104 Building",
       "A-East"
     ],
-    "requires": "Shibukyu Main Store"
+    "requires": "|Shibukyu Main Store|"
   },
   "Center Street Entrance": {
     "connects_to": [
       "Scramble Crossing",
       "AMX"
     ],
-    "requires": "Center Street Entrance"
+    "requires": "|Center Street Entrance|"
   },
   "AMX": {
     "connects_to": [
       "Center Street Entrance",
       "Tipsy Tose Hall"
     ],
-    "requires": "AMX"
+    "requires": "|AMX|"
   },
   "Tipsy Tose Hall": {
     "connects_to": [
@@ -91,48 +91,48 @@
       "Spain Hill",
       "Shibu-Q Heads"
     ],
-    "requires": "Tipsy Tose Hall"
+    "requires": "|Tipsy Tose Hall|"
   },
   "Shibu-Q Heads": {
     "connects_to": [
       "Tipsy Tose Hall",
       "Udagawa Back Streets"
     ],
-    "requires": "Shibu-Q Heads"
+    "requires": "|Shibu-Q Heads|"
   },
   "Udagawa Back Streets":{
     "connects_to":[
       "Shibu-Q Heads"
     ],
-    "requires": "Udagawa Back Streets"
+    "requires": "|Udagawa Back Streets|"
   },
   "Molco": {
     "connects_to": [
       "Spain Hill",
       "Cadoi City"
     ],
-    "requires": "Molco"
+    "requires": "|Molco|"
   },
   "Spain Hill": {
     "connects_to": [
       "Tipsy Tose Hall",
       "Molco"
     ],
-    "requires": "Spain Hill"
+    "requires": "|Spain Hill|"
   },
   "West Exit Bus Terminal": {
     "connects_to": [
       "Statue of Hachiko",
       "Station Underpass"
     ],
-    "requires": "West Exit Bus Terminal"
+    "requires": "|West Exit Bus Terminal|"
   },
   "Station Underpass": {
     "connects_to": [
       "West Exit Bus Terminal",
       "Trail of the Sinner"
     ],
-    "requires": "Station Underpass"
+    "requires": "|Station Underpass|"
   },
   "Dogenzaka": {
     "connects_to": [
@@ -140,25 +140,25 @@
       "A-East",
       "Pork City"
     ],
-    "requires": "Dogenzaka"
+    "requires": "|Dogenzaka|"
   },
   "A-East": {
     "connects_to": [
       "Dogenzaka",
       "Shibukyu Main Store"
     ],
-    "requires": "A-East"
+    "requires": "|A-East|"
   },
   "Pork City": {
     "connects_to": [
       "Dogenzaka"
     ],
-    "requires": "Pork City"
+    "requires": "|Pork City|"
   },
   "Trail of the Sinner": {
     "connects_to": [
       "Station Underpass"
     ],
-    "requires": "Trail of the Sinner"
+    "requires": "|Trail of the Sinner|"
   }
 }
