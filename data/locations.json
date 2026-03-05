@@ -146,7 +146,7 @@
   {
     "name": "W1D3 - Enter a shop",
     "region": "A-East",
-    "requires": "(|A-East| OR |Dogenzaka| OR |Shibukyu Main Store|)",
+    "requires": "|A-East|",
     "category": [
       "W1D3"
     ]
@@ -184,7 +184,7 @@
     ]
   },
   {
-    "name": "W1D3 - Scan man on concert stage after learning about memes",
+    "name": "W1D3 - Get Fuse meme from A-East",
     "region": "A-East",
     "requires": "|A-East| AND |Shibukyu Main Store| AND |Dogenzaka|",
     "category": [
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "name": "W1D5 - Erase 3 or more Chump Noise symbols at Spain Hill",
+    "name": "W1D5 - Erase 3 or more Noise symbols at Spain Hill",
     "region": "Spain Hill",
     "requires": "|Tipsy Tose Hall| AND |Spain Hill|",
     "category": [
