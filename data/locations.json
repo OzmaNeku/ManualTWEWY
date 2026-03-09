@@ -1,11 +1,14 @@
-[
-  {
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+  "data" : [
+    {
     "name": "W1D1 - Run, Dash, and Escape Tutorial",
     "region": "Scramble Crossing",
+    "requires": "|Scramble Crossing|",
     "category": [
       "W1D1"
     ],
-    "requires": ""
+    "sort-key": "1"
   },
   {
     "name": "W1D1 - Drag and Neku Combat Tutorial",
@@ -13,7 +16,8 @@
     "requires": "|Statue of Hachiko|",
     "category": [
       "W1D1"
-    ]
+    ],
+    "sort-key": "2"
   },
   {
     "name": "W1D1 - Partner Tutorial",
@@ -21,7 +25,8 @@
     "requires": "|Statue of Hachiko| AND |104 Building|",
     "category": [
       "W1D1"
-    ]
+    ],
+    "sort-key": "3"
   },
   {
     "name": "W1D1 - Partnered Combat Battle",
@@ -29,7 +34,8 @@
     "requires": "|Statue of Hachiko| AND |104 Building|",
     "category": [
       "W1D1"
-    ]
+    ],
+    "sort-key": "4"
   },
   {
     "name": "W1D1 - Grizzly Battle",
@@ -38,6 +44,8 @@
     "category": [
       "W1D1"
     ]
+    ,
+    "sort-key": "5"
   },
   {
     "name": "W1D2 - Attempt to leave Station Underpass",
@@ -46,6 +54,8 @@
     "category": [
       "W1D2"
     ]
+    ,
+    "sort-key": "1"
   },
   {
     "name": "W1D2 - Attempt to scan support Reaper",
@@ -53,7 +63,8 @@
     "requires": "|Station Underpass|",
     "category": [
       "W1D2"
-    ]
+    ],
+    "sort-key": "2"
   },
   {
     "name": "W1D2 - Slash Tutorial",
@@ -61,7 +72,8 @@
     "requires": "|Station Underpass|",
     "category": [
       "W1D2"
-    ]
+    ],
+    "sort-key": "3"
   },
   {
     "name": "W1D2 - Obstacles Tutorial",
@@ -70,6 +82,8 @@
     "category": [
       "W1D2"
     ]
+    ,
+    "sort-key": "4"
   },
   {
     "name": "W1D2 - Touch/tap tutorial",
@@ -77,7 +91,8 @@
     "requires": "|Station Underpass|",
     "category": [
       "W1D2"
-    ]
+    ],
+    "sort-key": "5"
   },
   {
     "name": "W1D2 - Clear wall to West Exit Bus Terminal",
@@ -85,7 +100,8 @@
     "requires": "|Station Underpass|",
     "category": [
       "W1D2"
-    ]
+    ],
+    "sort-key": "6"
   },
   {
     "name": "W1D2 - Meet Beat and Rhyme",
@@ -93,7 +109,8 @@
     "requires": "|Station Underpass| AND |West Exit Bus Terminal|",
     "category": [
       "W1D2"
-    ]
+    ],
+    "sort-key": "7"
   },
   {
     "name": "W1D2 - Clear wall to Statue of Hachiko",
@@ -101,7 +118,8 @@
     "requires": "|Station Underpass| AND |West Exit Bus Terminal|",
     "category": [
       "W1D2"
-    ]
+    ],
+    "sort-key": "8"
   },
   {
     "name": "W1D2 - Lift Hachiko's Cuse",
@@ -109,7 +127,8 @@
     "requires": "|Station Underpass| AND |West Exit Bus Terminal| AND |Statue of Hachiko|",
     "category": [
       "W1D2"
-    ]
+    ],
+    "sort-key": "9"
   },
   {
     "name": "W1D2 - Defeat the Metal Corehog",
@@ -117,7 +136,8 @@
     "requires": "|Station Underpass| AND |West Exit Bus Terminal| AND |Statue of Hachiko|",
     "category": [
       "W1D2"
-    ]
+    ],
+    "sort-key": "10"
   },
   {
     "name": "W1D3 - Flashback",
@@ -125,7 +145,8 @@
     "requires": "|A-East|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key": "1"
   },
   {
     "name": "W1D3 - Reunite with Shiki",
@@ -133,7 +154,8 @@
     "requires": "|A-East|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key": "2"
   },
   {
     "name": "W1D3 - Exit to A-East",
@@ -141,7 +163,8 @@
     "requires": "|A-East|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W1D3 - Enter a shop",
@@ -149,7 +172,8 @@
     "requires": "|A-East|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W1D3 -  Harmonizer Pin Flashback",
@@ -157,7 +181,8 @@
     "requires": "|A-East|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W1D3 - Free the tech from the Noise",
@@ -165,7 +190,8 @@
     "requires": "|A-East| AND |Dogenzaka|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key":"6"
   },
   {
     "name": "W1D3 - Clear wall to Shibukyu Main Store",
@@ -173,7 +199,8 @@
     "requires": "|A-East| AND |Dogenzaka|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key":"7"
   },
   {
     "name": "W1D3 - Learn about Memes",
@@ -181,7 +208,8 @@
     "requires": "|A-East| AND |Shibukyu Main Store| AND |Dogenzaka|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key":"8"
   },
   {
     "name": "W1D3 - Get Fuse meme from A-East",
@@ -189,7 +217,8 @@
     "requires": "|A-East| AND |Shibukyu Main Store| AND |Dogenzaka|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key":"9"
   },
   {
     "name": "W1D3 - Defeat Vespertilio Canor",
@@ -197,7 +226,8 @@
     "requires": "|A-East| AND |Shibukyu Main Store| AND |Dogenzaka|",
     "category": [
       "W1D3"
-    ]
+    ],
+    "sort-key":"10"
   },
   {
     "name": "W1D4 - Speak to Beat and Rhyme",
@@ -205,7 +235,8 @@
     "requires": "|104 Building|",
     "category": [
       "W1D4"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W1D4 - Visit 104",
@@ -213,7 +244,8 @@
     "requires": "|104 Building|",
     "category": [
       "W1D4"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W1D4 - Travel to Scramble Crossing (One Time Event, will not occur on NG+)",
@@ -221,7 +253,8 @@
     "requires": "|104 Building| AND |Scramble Crossing|",
     "category": [
       "W1D4"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W1D4 - Clear wall to Shibu Dept. Store",
@@ -229,7 +262,8 @@
     "requires": "|104 Building| AND |Scramble Crossing|",
     "category": [
       "W1D4"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W1D4 - Loose Button ",
@@ -237,7 +271,8 @@
     "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store|",
     "category": [
       "W1D4"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W1D4 - Clear wall to Cadoi City",
@@ -245,7 +280,8 @@
     "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store|",
     "category": [
       "W1D4"
-    ]
+    ],
+    "sort-key":"6"
   },
   {
     "name": "W1D4 - Meet Beat and Rhyme at Cadoi City",
@@ -253,7 +289,8 @@
     "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City|",
     "category": [
       "W1D4"
-    ]
+    ],
+    "sort-key":"7"
   },
   {
     "name": "W1D4 - Tower Records Noise Fight",
@@ -261,7 +298,8 @@
     "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Tower Records|",
     "category": [
       "W1D4"
-    ]
+    ],
+    "sort-key":"8"
   },
   {
     "name": "W1D4 - Defeat the Swing Shark",
@@ -269,7 +307,8 @@
     "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Tower Records|",
     "category": [
       "W1D4"
-    ]
+    ],
+    "sort-key": "9"
   },
   {
     "name": "W1D5 - Play Reaper Creeper with 'Shrimp'",
@@ -277,7 +316,8 @@
     "requires": "|Tipsy Tose Hall|",
     "category": [
       "W1D5"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W1D5 - Clear wall to Spain Hill",
@@ -285,7 +325,8 @@
     "requires": "|Tipsy Tose Hall|",
     "category": [
       "W1D5"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W1D5 - Erase 3 or more Noise symbols at Spain Hill",
@@ -293,7 +334,8 @@
     "requires": "|Tipsy Tose Hall| AND |Spain Hill|",
     "category": [
       "W1D5"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W1D5 - Erase final Negative Noise possessing Ai and Mina",
@@ -301,7 +343,8 @@
     "requires": "|Tipsy Tose Hall| AND |Spain Hill|",
     "category": [
       "W1D5"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W1D5 - Defeat the Circle Pit Grizzly",
@@ -309,47 +352,53 @@
     "requires": "|Tipsy Tose Hall| AND |Spain Hill|",
     "category": [
       "W1D5"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W1D6 - Red Skull Get",
     "region": "Scramble Crossing",
-    "requires": "|Scramble Crossing|",
+    "requires": "|Scramble Crossing| AND |Red Skull Pin|",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W1D6 - Free Makoto from the Noise",
     "region": "Scramble Crossing",
-    "requires": "|Scramble Crossing|",
+    "requires": "{canReachLocation(W1D6 - Red Skull Get)}",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W1D6 - Imprint at the Scramble",
     "region": "Scramble Crossing",
-    "requires": "|Scramble Crossing|",
+    "requires": "{canReachLocation(W1D6 - Free Makoto from the Noise)}",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W1D6 - Clear wall to Center St. Entrance",
     "region": "Center Street Entrance",
-    "requires": "|Scramble Crossing| AND |Center Street Entrance|",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance| AND {canReachLocation(W1D6 - Imprint at the Scramble)}",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W1D6 - Imprint at Center Street",
     "region": "Center Street Entrance",
-    "requires": "|Scramble Crossing| AND |Center Street Entrance|",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance| AND {canReachLocation(W1A6 - Imprint at the Scramble)}",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W1D6 - Clear optional wall to AMX",
@@ -357,23 +406,26 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance|",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"6"
   },
   {
     "name":"W1D6 - Imprint at Spain Hill",
     "region": "Spain Hill",
-    "requires": "(|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Molco| AND |Spain Hill|) OR (|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall| AND |Spain Hill|)",
+    "requires": "(|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Molco| AND |Spain Hill|) OR (|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall| AND |Spain Hill|) AND {canReachLocation(W1D6 - Imprint at Center Street)}",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"7"
   },
   {
     "name": "W1D6 - Learn about manipulating trends",
     "region": "Scramble Crossing",
-    "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |Spain Hill|",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |Spain Hill| AND {canReachLocation(W1D6 - Imprint at Spain Hill)}",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"8"
   },
   {
     "name": "W1D6 - Make Red Skull popular at the Scramble Crossing",
@@ -381,7 +433,8 @@
     "requires": "|Scramble Crossing| AND |Red Skull Pin| AND {canReachLocation(W1D6 - Imprint at Spain Hill)}",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"9"
   },
   {
     "name": "W1D6 - Make Red Skull popular at the 104 Building",
@@ -389,7 +442,8 @@
     "requires": "|Scramble Crossing| AND |104 Building| AND |Red Skull Pin| AND {canReachLocation(W1D6 - Imprint at Spain Hill)}",
     "category": [
       "W1D6"
-    ]
+    ],
+    "sort-key":"10"
   },
   {
     "name": "W1D7 - Clear wall to West Exit Bus Terminal",
@@ -397,7 +451,8 @@
     "requires": "|Scramble Crossing| AND |Statue of Hachiko|",
     "category": [
       "W1D7"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W1D7 - Defeat Cornix Canor",
@@ -405,7 +460,8 @@
     "requires": "|Scramble Crossing| AND |Statue of Hachiko| AND |West Exit Bus Terminal|",
     "category": [
       "W1D7"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W1D7 - Defeat Ovis Cantus",
@@ -414,7 +470,8 @@
     "victory": true,
     "category": [
       "W1D7"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W2D1 - Win first battle with Joshua",
@@ -422,7 +479,8 @@
     "requires": "|Scramble Crossing| AND |Statue of Hachiko|",
     "category": [
       "W2D1"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W2D1 - Clear wall to 104 Building",
@@ -430,7 +488,8 @@
     "requires": "|Scramble Crossing| AND {canReachLocation(W2D1 - Win first battle with Joshua)}",
     "category": [
       "W2D1"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W2D1 - Defeat the Dub Rhino",
@@ -438,7 +497,8 @@
     "requires": "|Scramble Crossing| AND |104 Building| AND {canReachLocation(W2D1 - Clear wall to 104 Building)}",
     "category":  [
       "W2D1"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W2D2 - Free Yammer from the Noise",
@@ -446,7 +506,8 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store|",
     "category": [
       "W2D2"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W2D2 - Clear wall to Cadoi City",
@@ -454,7 +515,8 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store|",
     "category": [
       "W2D2"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W2D2 - Defeat Eurobeat Boomers (Random Taboo Noise Encounter leading to Molco)",
@@ -462,7 +524,8 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City|",
     "category": [
       "W2D2"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W2D2 - Complete Molco Slamoff",
@@ -470,7 +533,17 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Molco|",
     "category": [
       "W2D2"
-    ]
+    ],
+    "sort-key":"4"
+  },
+  {
+    "name": "W2D2 - Leave Molco",
+    "region": "Molco",
+    "requires": "{canReachLocation(W2D2 - Complete Molco Slamoff)}",
+    "category": [
+      "W2D2"
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W2D3 - Clear Wall to Tower Records",
@@ -478,7 +551,8 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City|",
     "category": [
       "W2D3"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W2D3 - Clear wall to Miyashita Park",
@@ -486,7 +560,8 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Tower Records| AND |Miyashita Park Underpass|",
     "category": [
       "W2D3"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W2D3 - Make it to Cat Street",
@@ -494,7 +569,8 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Tower Records| AND |Miyashita Park Underpass| AND |Cat Street|",
     "category": [
       "W2D3"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W2D3 - Battle Reaper Beat",
@@ -502,7 +578,8 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Tower Records| AND {canReachLocation(W2D3 - Make it to Cat Street)}",
     "category": [
       "W2D3"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W2D3 - Clear wall to 104 Building",
@@ -510,7 +587,8 @@
     "requires": "|Scramble Crossing| AND {canReachLocation(W2D3 - Battle Reaper Beat)}",
     "category": [
       "W2D3"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W2D3 - Free Ken Doi from the Noise",
@@ -518,7 +596,8 @@
     "requires": "|Scramble Crossing| AND |104 Building| AND |Dogenzaka| AND {canReachLocation(W2D3 - Clear wall to 104 Building)}",
     "category": [
       "W2D3"
-    ]
+    ],
+    "sort-key":"6"
   },
   {
     "name": "W2D3 - Free Eiji Oji from the Noise",
@@ -526,7 +605,8 @@
     "requires": "|Scramble Crossing| AND |104 Building| AND |Dogenzaka| AND |A-East| AND {canReachLocation(W2D3 - Free Ken Doi from the Noise)}",
     "category": [
       "W2D3"
-    ]
+    ],
+    "sort-key":"7"
   },
   {
     "name": "W2D3 - Ken Doi makes Simple Ramen",
@@ -534,7 +614,8 @@
     "requires": "|Scramble Crossing| AND |104 Building| AND |Dogenzaka| AND {canReachLocation(W2D3 - Free Eiji Oji from the Noise)}",
     "category": [
       "W2D3"
-    ]
+    ],
+    "sort-key":"8"
   },
   {
     "name": "W2D4 - Clear wall to AMX",
@@ -542,7 +623,8 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance|",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W2D4 - Clear wall to Tipsy Tose Hall",
@@ -550,7 +632,8 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |AMX|",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W2D4 - Get asked to help find missing mic",
@@ -558,7 +641,8 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall|",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W2D4 - Talk to Tenho at Spain Hill",
@@ -566,7 +650,8 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall| AND |Spain Hill| AND {canReachLocation(W2D4 - Get asked to help find missing mic)}",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W2D4 - Meet Sota and Nao at Molco",
@@ -574,7 +659,8 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall| AND |Spain Hill| AND |Molco| AND {canReachLocation(W2D4 - Get asked to help find missing mic)}",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W2D4 - Camera Time Tutorial at phone booth",
@@ -582,7 +668,8 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall| AND |Spain Hill| AND |Molco| AND {canReachLocation(W2D4 - Get asked to help find missing mic)}",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"6"
   },
   
   {
@@ -591,7 +678,8 @@
     "requires": "|Scramble Crossing| AND {canReachLocation(W2D4 - Camera Time Tutorial at phone booth)}",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"7"
   },
   {
     "name": "W2D4 - Solve the missing mic mystery at Tipsy Tose Hall",
@@ -599,7 +687,8 @@
     "requires": "{canReachLocation(W2D4 - Talk to BJ at Scramble Crossing)} AND {canReachLocation(W2D4 - Talk to Tenho at Spain Hill)}",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"8"
   },
   {
     "name": "W2D4 - Fight Reaper Beat at Shibu-Q Heads",
@@ -607,7 +696,8 @@
     "requires": "|Shibu-Q Heads| AND {canReachLocation(W2D4 - Solve the missing mic mystery at Tipsy Tose Hall)}",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"9"
   },
   {
     "name": "W2D4 - Go to Udagawa Back Streets and scan Joshua",
@@ -615,7 +705,8 @@
     "requires": "|Udagawa Back Streets| AND {canReachLocation(W2D4 - Fight Reaper Beat at Shibu-Q Heads)}",
     "category": [
       "W2D4"
-    ]
+    ],
+    "sort-key":"10"
   },
   {
     "name": "W2D5 - Clear wall to Shibu Department Store",
@@ -623,7 +714,8 @@
     "requires": "|Scramble Crossing|",
     "category": [
       "W2D5"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W2D5 - Clear wall to Cadoi City",
@@ -631,7 +723,8 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store| AND |104 Building| AND |Dogenzaka|",
     "category": [
       "W2D5"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W2D5 - Clear wall to Tower Records",
@@ -639,7 +732,8 @@
     "requires": "|Cadoi City| AND {canReachLocation(W2D5 - Clear wall to Cadoi City)}",
     "category": [
       "W2D5"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W2D5 - Clear wall to Miyashita Park Underpass",
@@ -647,7 +741,8 @@
     "requires": "|Tower Records| AND {canReachLocation(W2D5 - Clear wall to Tower Records)}",
     "category": [
       "W2D5"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W2D5 - Clear wall to Miyashita Park",
@@ -655,7 +750,8 @@
     "requires": "|Miyashita Park Underpass| AND {canReachLocation(W2D5 - Clear wall to Miyashita Park Underpass)}",
     "category": [
       "W2D5"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W2D5 - Clear wall to Cat Street",
@@ -663,7 +759,8 @@
     "requires": "|Miyashita Park| AND {canReachLocation(W2D5 - Clear wall to Miyashita Park)}",
     "category": [
       "W2D5"
-    ]
+    ],
+    "sort-key":"6"
   },
   {
     "name": "W2D5 - Defeat Beat at Miyashita Park Underpass",
@@ -671,7 +768,8 @@
     "requires": "|Miyashita Park Underpass| AND {canReachLocation(W2D5 - Clear wall to Cat Street)}",
     "category": [
       "W2D5"
-    ]
+    ],
+    "sort-key":"7"
   },
   {
     "name": "W2D5 - Fight the Trance Rhino at Station Underpass",
@@ -679,7 +777,8 @@
     "requires": "{canReachLocation(W2D5 - Defeat Beat at Miyashita Park Underpass)} AND |Scramble Crossing| AND |Statue of Hachiko| AND |West Exit Bus Terminal| AND |Station Underpass|",
     "category": [
       "W2D5"
-    ]
+    ],
+    "sort-key":"8"
   },
   {
     "name": "W2D6 - Center Street Entrance ambush",
@@ -687,7 +786,8 @@
     "requires": "|Scramble Crossing|",
     "category": [
       "W2D6"
-    ]
+    ],
+    "sort-key":"9"
   },
   {
     "name": "W2D6 - AMX ambush",
@@ -695,7 +795,8 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |AMX|",
     "category": [
       "W2D6"
-    ]
+    ],
+    "sort-key": "10"
   },
   {
     "name": "W2D6 - Tipsy Tose Hall ambush",
@@ -703,7 +804,8 @@
     "requires": "{canReachLocation(W2D6 - AMX ambush)} AND |Tipsy Tose Hall|",
     "category": [
       "W2D6"
-    ]
+    ],
+    "sort-key":"11"
   },
   {
     "name": "W2D6 - Shibu-Q Heads ambush",
@@ -711,7 +813,8 @@
     "requires": "{canReachLocation(W2D6 - Tipsy Tose Hall ambush)} AND |Shibu-Q Heads|",
     "category": [
       "W2D6"
-    ]
+    ],
+    "sort-key":"12"
   },
   {
     "name": "W2D6 - Defeat Taboo noise at Udagawa Backstreets",
@@ -719,7 +822,8 @@
     "requires": "{canReachLocation(W2D6 - Shibu-Q Heads ambush)} AND |Udagawa Back Streets|",
     "category": [
       "W2D6"
-    ]
+    ],
+    "sort-key":"13"
   },
   {
     "name": "W2D7 - Enter Pork City",
@@ -727,7 +831,8 @@
     "requires": "|Scramble Crossing| AND |104 Building| AND |Dogenzaka| AND |Pork City|",
     "category": [
       "W2D7"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W2D7 - Get to second floor of Pork City",
@@ -735,7 +840,8 @@
     "requires": "{canReachLocation(W2D7 - Enter Pork City)}",
     "category": [
       "W2D7"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W2D7 - Get to the roof of Pork City",
@@ -743,7 +849,8 @@
     "requires": "{canReachLocation(W2D7 - Enter Pork City)}",
     "category": [
       "W2D7"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W2D7 - Defeat Leo Cantus",
@@ -752,7 +859,8 @@
     "victory": true,
     "category":[
       "W2D7"
-    ]
+    ],
+    "sort-key": "4"
   },
   {
     "name": "W3D1 - Partner with Beat",
@@ -760,7 +868,8 @@
     "requires": "|Scramble Crossing| AND |Statue of Hachiko|",
     "category":[
       "W3D1"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W3D1 - Win first battle with Beat",
@@ -768,7 +877,8 @@
     "requires": "{canReachLocation(W3D1 - Partner with Beat)}",
     "category":[
       "W3D1"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W3D1 - Break wall to Station Underpass",
@@ -776,7 +886,8 @@
     "requires": "{canReachLocation(W3D1 - Win first battle with Beat)} AND |West Exit Bus Terminal|",
     "category":[
       "W3D1"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W3D1 - Check Shibuya River",
@@ -784,15 +895,17 @@
     "requires": "{canReachLocation(W3D1 - Break wall to Station Underpass)} AND |Station Underpass|",
     "category":[
       "W3D1"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W3D1 - Beat Fusion Tutorial",
     "region": "Scramble Crossing",
-    "requires": "{canReachLocation(W3D1 - Check Shibuya River)",
+    "requires": "{canReachLocation(W3D1 - Check Shibuya River)}",
     "category":[
       "W3D1"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W3D1 - Get to 104 Building",
@@ -800,7 +913,8 @@
     "requires": "{canReachLocation(W3D1 - Beat Fusion Tutorial)} AND |104 Building|",
     "category":[
       "W3D1"
-    ]
+    ],
+    "sort-key":"6"
   },
   {
     "name": "W3D2 - Break down Dogenzaka wall",
@@ -808,7 +922,8 @@
     "requires": "|Scramble Crossing| AND |104 Building|",
     "category":[
       "W3D2"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W3D2 - Dogenzaka Tenor Reaper battle",
@@ -816,7 +931,8 @@
     "requires": "{canReachLocation(W3D2 - Break down Dogenzaka wall)} AND |Dogenzaka|",
     "category":[
       "W3D2"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W3D2 - Break down A-East Wall",
@@ -824,7 +940,8 @@
     "requires": "{canReachLocation(W3D2 - Dogenzaka Tenor Reaper battle)}",
     "category":[
       "W3D2"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W3D2 - A-East 777 & Tenor Reaper battle",
@@ -832,7 +949,8 @@
     "requires": "{canReachLocation(W3D2 - Break down A-East Wall)} AND |A-East|",
     "category":[
       "W3D2"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W3D2 - Entrance to concert stage Tenor Reaper battle",
@@ -840,7 +958,8 @@
     "requires": "{canReachLocation(W3D2 - A-East 777 & Tenor Reaper battle)}",
     "category":[
       "W3D2"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W3D2 - Pteropus Canor concert stage battle",
@@ -848,7 +967,8 @@
     "requires": "{canReachLocation(W3D2 - Entrance to concert stage Tenor Reaper battle)}",
     "category":[
       "W3D2"
-    ]
+    ],
+    "sort-key":"6"
   },
   {
     "name": "W3D3 - Talk with Shrimp",
@@ -856,7 +976,8 @@
     "requires": "|Scramble Crossing|",
     "category":[
       "W3D3"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W3D3 - Center Street Entrance Tenor Reaper battle",
@@ -864,7 +985,8 @@
     "requires": "|Scramble Crossing| AND {canReachLocation(W3D3 - Talk with Shrimp)}",
     "category":[
       "W3D3"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W3D3 - Talk with Makoto and Shrimp",
@@ -872,7 +994,8 @@
     "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall|",
     "category":[
       "W3D3"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W3D3 - Uzuki battle",
@@ -880,7 +1003,8 @@
     "requires": "{canReachLocation(W3D3 - Talk with Makoto and Shrimp)}",
     "category":[
       "W3D3"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W3D4 - Talk to Beat",
@@ -888,7 +1012,8 @@
     "requires": "|Miyashita Park Underpass|",
     "category":[
       "W3D4"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W3D4 - Try to go to Tower Records",
@@ -896,7 +1021,8 @@
     "requires": "|Miyashita Park Underpass|",
     "category":[
       "W3D4"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W3D4 - Clear the Star box (bottom left)",
@@ -904,7 +1030,8 @@
     "requires": "|Miyashita Park Underpass|",
     "category":[
       "W3D4"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W3D4 - Clear Moon box in Miyashita Park",
@@ -912,7 +1039,8 @@
     "requires": "{canReachLocation(W3D4 - Clear the Star box (bottom left))} AND |Miyashita Park|",
     "category":[
       "W3D4"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W3D4 - Clear the Sun box",
@@ -920,7 +1048,8 @@
     "requires": "{canReachLocation(W3D4 - Clear Moon box in Miyashita Park)}",
     "category":[
       "W3D4"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W3D4 - Go to Tower Records",
@@ -928,7 +1057,8 @@
     "requires": "{canReachLocation(W3D4 - Clear the Sun box)}",
     "category":[
       "W3D4"
-    ]
+    ],
+    "sort-key":"6"
   },
   {
     "name": "W3D4 - Scan and enter Kariya Battle",
@@ -936,7 +1066,8 @@
     "requires": "{canReachLocation(W3D4 - Go to Tower Records)} AND |Tower Records|",
     "category":[
       "W3D4"
-    ]
+    ],
+    "sort-key":"7"
   },
   {
     "name": "W3D4 - Kariya and Uzuki battle",
@@ -944,7 +1075,8 @@
     "requires": "{canReachLocation(W3D4 - Scan and enter Kariya Battle)}",
     "category":[
       "W3D4"
-    ]
+    ],
+    "sort-key":"8"
   },
   {
     "name": "W3D5 - Go to Tipsy Tose Hall",
@@ -952,7 +1084,8 @@
     "requires": "(|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall|) OR (|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Molco| AND |Spain Hill| AND |Tipsy Tose Hall|",
     "category":[
       "W3D5"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W3D5 - Tenor Reaper Battle to get to Shibu-Q Heads",
@@ -960,7 +1093,8 @@
     "requires": "{canReachLocation(W3D5 - Go to Tipsy Tose Hall)}",
     "category":[
       "W3D5"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W3D5 - Tenor Reaper Battle in Shibu-Q Heads",
@@ -968,7 +1102,8 @@
     "requires": "{canReachLocation(W3D5 - Tenor Reaper Battle to get to Shibu-Q Heads)} AND |Shibu-Q Heads|",
     "category":[
       "W3D5"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W3D5 - Check the Taboo Sigil",
@@ -976,7 +1111,8 @@
     "requires": "{canReachLocation(W3D5 - Tenor Reaper Battle in Shibu-Q Heads)} AND |Udagawa Back Streets|",
     "category":[
       "W3D5"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W3D5 - Possessed Uzuki and Kariya battle",
@@ -984,7 +1120,8 @@
     "requires": "{canReachLocation(W3D5 - Check the Taboo Sigil)}",
     "category":[
       "W3D5"
-    ]
+    ],
+    "sort-key":"5"
   },
   {
     "name": "W3D6 - Go to Wildkat in Cat Street",
@@ -992,7 +1129,8 @@
     "requires": "|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Tower Records| AND |Miyashita Park Underpass| AND |Cat Street|",
     "category":[
       "W3D6"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W3D6 - Taboo Sho battle at Cadoi City",
@@ -1000,7 +1138,8 @@
     "requires": "{canReachLocation(W3D6 - Go to Wildkat in Cat Street)}",
     "category":[
       "W3D6"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W3D7 - Go to Shibuya River",
@@ -1008,7 +1147,8 @@
     "requires": "|Scramble Crossing| AND |Statue of Hachiko| AND |West Exit Bus Terminal| AND |Station Underpass|",
     "category":[
       "W3D7"
-    ]
+    ],
+    "sort-key":"1"
   },
   {
     "name": "W3D7 - Tigris Cantus fight",
@@ -1016,7 +1156,8 @@
     "requires": "{canReachLocation(W3D7 - Go to Shibuya River)} AND |Trail of the Sinner| AND |Tigris Cantus Key|",
     "category":[
       "W3D7"
-    ]
+    ],
+    "sort-key":"2"
   },
   {
     "name": "W3D7 - Kitaniji fight",
@@ -1024,7 +1165,8 @@
     "requires": "{canReachLocation(W3D7 - Tigris Cantus fight)}",
     "category":[
       "W3D7"
-    ]
+    ],
+    "sort-key":"3"
   },
   {
     "name": "W3D7 - Anguis Cantus",
@@ -1032,7 +1174,8 @@
     "requires": "{canReachLocation(W3D7 - Kitaniji fight)}",
     "category":[
       "W3D7"
-    ]
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W3D7 - Draco Cantus fight",
@@ -1041,6 +1184,8 @@
     "victory": true,
     "category":[
       "W3D7"
-    ]
+    ],
+    "sort-key":"5"
   }
 ]
+}
