@@ -949,7 +949,7 @@
   {
     "name": "W3D5 - Go to Tipsy Tose Hall",
     "region": "Tipsy Tose Hall",
-    "requires": "(|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall|) OR (|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Moleo| AND |Spain Hill| AND |Tipsy Tose Hall|",
+    "requires": "(|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall|) OR (|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Molco| AND |Spain Hill| AND |Tipsy Tose Hall|",
     "category":[
       "W3D5"
     ]
