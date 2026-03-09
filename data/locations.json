@@ -753,5 +753,295 @@
     "category":[
       "W2D7"
     ]
+  },
+  {
+    "name": "W3D1 - Partner with Beat",
+    "region": "Statue of Hachiko",
+    "requires": "|Scramble Crossing| AND |Statue of Hachiko|",
+    "category":[
+      "W3D1"
+    ]
+  },
+  {
+    "name": "W3D1 - Win first battle with Beat",
+    "region": "Statue of Hachiko",
+    "requires": "{canReachLocation(W3D1 - Partner with Beat)}",
+    "category":[
+      "W3D1"
+    ]
+  },
+  {
+    "name": "W3D1 - Break wall to Station Underpass",
+    "region": "West Exit Bus Terminal",
+    "requires": "{canReachLocation(W3D1 - Win first battle with Beat)} AND |West Exit Bus Terminal|",
+    "category":[
+      "W3D1"
+    ]
+  },
+  {
+    "name": "W3D1 - Check Shibuya River",
+    "region": "Station Underpass",
+    "requires": "{canReachLocation(W3D1 - Break wall to Station Underpass)} AND |Station Underpass|",
+    "category":[
+      "W3D1"
+    ]
+  },
+  {
+    "name": "W3D1 - Beat Fusion Tutorial",
+    "region": "Scramble Crossing",
+    "requires": "{canReachLocation(W3D1 - Check Shibuya River)",
+    "category":[
+      "W3D1"
+    ]
+  },
+  {
+    "name": "W3D1 - Get to 104 Building",
+    "region": "104 Building",
+    "requires": "{canReachLocation(W3D1 - Beat Fusion Tutorial)} AND |104 Building|",
+    "category":[
+      "W3D1"
+    ]
+  },
+  {
+    "name": "W3D2 - Break down Dogenzaka wall",
+    "region": "104 Building",
+    "requires": "|Scramble Crossing| AND |104 Building|",
+    "category":[
+      "W3D2"
+    ]
+  },
+  {
+    "name": "W3D2 - Dogenzaka Tenor Reaper battle",
+    "region": "Dogenzaka",
+    "requires": "{canReachLocation(W3D2 - Break down Dogenzaka wall)} AND |Dogenzaka|",
+    "category":[
+      "W3D2"
+    ]
+  },
+  {
+    "name": "W3D2 - Break down A-East Wall",
+    "region": "Dogenzaka",
+    "requires": "{canReachLocation(W3D2 - Dogenzaka Reaper battle)}",
+    "category":[
+      "W3D2"
+    ]
+  },
+  {
+    "name": "W3D2 - A-East 777 & Tenor Reaper battle",
+    "region": "A-East",
+    "requires": "{canReachLocation(W3D2 - Break down A-East wall)} AND |A-East|",
+    "category":[
+      "W3D2"
+    ]
+  },
+  {
+    "name": "W3D2 - Entrance to concert stage Tenor Reaper battle",
+    "region": "A-East",
+    "requires": "{canReachLocation(W3D2 - A-East 777 & Tenor Reaper battle)}",
+    "category":[
+      "W3D2"
+    ]
+  },
+  {
+    "name": "W3D2 - Pteropus Canor concert stage battle",
+    "region": "A-East",
+    "requires": "{canReachLocation(W3D2 - Entrance to concert stage Tenor Reaper battle",
+    "category":[
+      "W3D2"
+    ]
+  },
+  {
+    "name": "W3D3 - Talk with Shrimp",
+    "region": "Scramble Crossing",
+    "requires": "|Scramble Crossing|",
+    "category":[
+      "W3D3"
+    ]
+  },
+  {
+    "name": "W3D3 - Center Street Entrance Tenor Reaper battle",
+    "region": "Scramble Crossing",
+    "requires": "|Scramble Crossing| AND {canReachLocation(W3D3 - Talk with Shrimp)}",
+    "category":[
+      "W3D3"
+    ]
+  },
+  {
+    "name": "W3D3 - Talk with Makoto and Shrimp",
+    "region": "Tipsy Tose Hall",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall|",
+    "category":[
+      "W3D3"
+    ]
+  },
+  {
+    "name": "W3D3 - Uzuki battle",
+    "region": "Tipsy Tose Hall",
+    "requires": "{canReachLocation(W3D3 - Talk with Makoto and Shrimp)}",
+    "category":[
+      "W3D3"
+    ]
+  },
+  {
+    "name": "W3D4 - Talk to Beat",
+    "region": "Miyashita Park Underpass",
+    "requires": "|Miyashita Park Underpass|",
+    "category":[
+      "W3D4"
+    ]
+  },
+  {
+    "name": "W3D4 - Try to go to Tower Records",
+    "region": "Miyashita Park Underpass",
+    "requires": "|Miyashita Park Underpass|",
+    "category":[
+      "W3D4"
+    ]
+  },
+  {
+    "name": "W3D4 - Clear the Star box (bottom left)",
+    "region": "Miyashita Park Underpass",
+    "requires": "|Miyashita Park Underpass|",
+    "category":[
+      "W3D4"
+    ]
+  },
+  {
+    "name": "W3D4 - Clear Moon box in Miyashita Park",
+    "region": "Miyashita Park",
+    "requires": "{canReachLocation(W3D4 - Clear the Star box (bottom left))} AND |Miyashita Park|",
+    "category":[
+      "W3D4"
+    ]
+  },
+  {
+    "name": "W3D4 - Clear the Sun box",
+    "region": "Miyashita Park",
+    "requires": "{canReachLocation(W3D4 - Clear Moon box in Miyashita Park)}",
+    "category":[
+      "W3D4"
+    ]
+  },
+  {
+    "name": "W3D4 - Go to Tower Records",
+    "region": "Miyashita Park Underpass",
+    "requires": "{canReachLocation(W3D4 - Clear the Sun box)}",
+    "category":[
+      "W3D4"
+    ]
+  },
+  {
+    "name": "W3D4 - Scan and enter Kariya Battle",
+    "region": "Tower Records",
+    "requires": "{canReachLocation(W3D4 - Go to Tower Records)} AND |Tower Records|",
+    "category":[
+      "W3D4"
+    ]
+  },
+  {
+    "name": "W3D4 - Kariya and Uzuki battle",
+    "region": "Tower Records",
+    "requires": "{canReachLocation(W3D4 - Scan and enter Kariya Battle)}",
+    "category":[
+      "W3D4"
+    ]
+  },
+  {
+    "name": "W3D5 - Go to Tipsy Tose Hall",
+    "region": "Tipsy Tose Hall",
+    "requires": "(|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall|) OR (|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Moleo| AND |Spain Hill| AND |Tipsy Tose Hall|",
+    "category":[
+      "W3D5"
+    ]
+  },
+  {
+    "name": "W3D5 - Tenor Reaper Battle to get to Shibu-Q Heads",
+    "region": "Tipsy Tose Hall",
+    "requires": "{canReachLocation(W3D5 - Go to Tipsy Tose Hall)}",
+    "category":[
+      "W3D5"
+    ]
+  },
+  {
+    "name": "W3D5 - Tenor Reaper Battle in Shibu-Q Heads",
+    "region": "Shibu-Q Heads",
+    "requires": "{canReachLocation(W3D5 - Tenor Reaper Battle to get to Shibu-Q Heads)} AND |Shibu-Q Heads|",
+    "category":[
+      "W3D5"
+    ]
+  },
+  {
+    "name": "W3D5 - Check the Taboo Sigil",
+    "region": "Udagawa Back Streets",
+    "requires": "{canReachLocation(W3D5 - Tenor Reaper Battle in Shibu-Q Heads)} AND {Udagawa Back Streets}",
+    "category":[
+      "W3D5"
+    ]
+  },
+  {
+    "name": "W3D5 - Possessed Uzuki and Kariya battle",
+    "region": "Udagawa Back Streets",
+    "requires": "{canReachLocation(W3D5 - Check the Taboo Sigil)}",
+    "category":[
+      "W3D5"
+    ]
+  },
+  {
+    "name": "W3D6 - Go to Wildkat in Cat Street",
+    "region": "Cat Street",
+    "requires": "|Scramble Crossing| AND |Shibu Department Store| AND |Cadoi City| AND |Tower Records| AND |Miyashita Park Underpass| AND |Cat Street|",
+    "category":[
+      "W3D6"
+    ]
+  },
+  {
+    "name": "W3D6 - Taboo Sho battle at Cadoi City",
+    "region": "Cadoi City",
+    "requires": "canReachLocation(W3D6 - Go to Wildkat in Cat Street)}",
+    "category":[
+      "W3D6"
+    ]
+  },
+  {
+    "name": "W3D7 - Go to Shibuya River",
+    "region": "Station Underpass",
+    "requires": "|Scramble Crossing| AND |Statue of Hachiko| AND |West Exit Bus Terminal| AND |Station Underpass|",
+    "category":[
+      "W3D7"
+    ]
+  },
+  {
+    "name": "W3D7 - Tigris Cantus fight",
+    "region": "Trail of the Sinner",
+    "requires": "{canReachLocation(W3D7 - Go to Shibuya River)} AND |Trail of the Sinner| AND |Tigris Cantus Key|",
+    "victory": true,
+    "category":[
+      "W3D7"
+    ]
+  },
+  {
+    "name": "W3D7 - Kitaniji fight",
+    "region": "Trail of the Sinner",
+    "requires": "{canReachLocation(W3D7 - Tigris Cantus fight)}",
+    "category":[
+      "W3D7"
+    ]
+  },
+  {
+    "name": "W3D7 - Anguis Cantus",
+    "region": "Trail of the Sinner",
+    "requires": "{canReachLocation(W3D7 - Kitaniji fight)}",
+    "category":[
+      "W3D7"
+    ]
+  },
+  {
+    "name": "W3D7 - Draco Cantus fight",
+    "region": "Trail of the Sinner",
+    "requires": "{canReachLocation(W3D7 - Anguis Cantus)} AND |Draco Cantus Key|",
+    "victory": true,
+    "category":[
+      "W3D7"
+    ]
   }
 ]

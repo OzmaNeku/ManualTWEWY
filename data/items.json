@@ -224,5 +224,21 @@
     ],
     "count": 1,
     "progression":true
+  },
+  {
+    "name": "Tigris Cantus Key",
+    "category": [
+      "Boss Key"
+    ],
+    "count": 1,
+    "progression":true
+  },
+  {
+    "name": "Draco Cantus Key",
+    "category": [
+      "Boss Key"
+    ],
+    "count": 1,
+    "progression":true
   }
 ]
