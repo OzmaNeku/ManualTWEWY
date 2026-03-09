@@ -821,7 +821,7 @@
   {
     "name": "W3D2 - Break down A-East Wall",
     "region": "Dogenzaka",
-    "requires": "{canReachLocation(W3D2 - Dogenzaka Reaper battle)}",
+    "requires": "{canReachLocation(W3D2 - Dogenzaka Tenor Reaper battle)}",
     "category":[
       "W3D2"
     ]
@@ -829,7 +829,7 @@
   {
     "name": "W3D2 - A-East 777 & Tenor Reaper battle",
     "region": "A-East",
-    "requires": "{canReachLocation(W3D2 - Break down A-East wall)} AND |A-East|",
+    "requires": "{canReachLocation(W3D2 - Break down A-East Wall)} AND |A-East|",
     "category":[
       "W3D2"
     ]
@@ -845,7 +845,7 @@
   {
     "name": "W3D2 - Pteropus Canor concert stage battle",
     "region": "A-East",
-    "requires": "{canReachLocation(W3D2 - Entrance to concert stage Tenor Reaper battle",
+    "requires": "{canReachLocation(W3D2 - Entrance to concert stage Tenor Reaper battle)}",
     "category":[
       "W3D2"
     ]
@@ -973,7 +973,7 @@
   {
     "name": "W3D5 - Check the Taboo Sigil",
     "region": "Udagawa Back Streets",
-    "requires": "{canReachLocation(W3D5 - Tenor Reaper Battle in Shibu-Q Heads)} AND {Udagawa Back Streets}",
+    "requires": "{canReachLocation(W3D5 - Tenor Reaper Battle in Shibu-Q Heads)} AND |Udagawa Back Streets|",
     "category":[
       "W3D5"
     ]
@@ -997,7 +997,7 @@
   {
     "name": "W3D6 - Taboo Sho battle at Cadoi City",
     "region": "Cadoi City",
-    "requires": "canReachLocation(W3D6 - Go to Wildkat in Cat Street)}",
+    "requires": "{canReachLocation(W3D6 - Go to Wildkat in Cat Street)}",
     "category":[
       "W3D6"
     ]
@@ -1014,7 +1014,6 @@
     "name": "W3D7 - Tigris Cantus fight",
     "region": "Trail of the Sinner",
     "requires": "{canReachLocation(W3D7 - Go to Shibuya River)} AND |Trail of the Sinner| AND |Tigris Cantus Key|",
-    "victory": true,
     "category":[
       "W3D7"
     ]
