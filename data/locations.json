@@ -394,7 +394,7 @@
   {
     "name": "W1D6 - Imprint at Center Street",
     "region": "Center Street Entrance",
-    "requires": "|Scramble Crossing| AND |Center Street Entrance| AND {canReachLocation(W1A6 - Imprint at the Scramble)}",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance| AND {canReachLocation(W1D6 - Imprint at the Scramble)}",
     "category": [
       "W1D6"
     ],
@@ -462,6 +462,15 @@
       "W1D7"
     ],
     "sort-key":"2"
+  },
+  {
+    "name": "W1D7 - Defeat Ovis Cantus (Alternate)",
+    "region": "Station Underpass",
+    "requires": "|Scramble Crossing| AND |Statue of Hachiko| AND |West Exit Bus Terminal| AND |Station Underpass| AND |Ovis Cantus Key|",
+    "category": [
+      "W1D7"
+    ],
+    "sort-key": "4"
   },
   {
     "name": "W1D7 - Defeat Ovis Cantus",
@@ -853,6 +862,15 @@
     "sort-key":"3"
   },
   {
+    "name": "W2D7 - Defeat Leo Cantus (Alternate)",
+    "region": "Pork City",
+    "requires": "|Pork City| AND |Leo Cantus Key|",
+    "category": [
+      "W2D7"
+    ],
+    "sort-key": "5"
+  },
+  {
     "name": "W2D7 - Defeat Leo Cantus",
     "region": "Pork City",
     "requires": "|Pork City| AND |Leo Cantus Key|",
@@ -1178,6 +1196,15 @@
     "sort-key":"4"
   },
   {
+    "name": "W3D7 - Draco Cantus fight (Alternate)",
+    "region": "Trail of the Sinner",
+    "requires": "{canReachLocation(W3D7 - Anguis Cantus)} AND |Draco Cantus Key|",
+    "category": [
+      "W3D7"
+    ],
+    "sort-key": "6"
+  },
+  {
     "name": "W3D7 - Draco Cantus fight",
     "region": "Trail of the Sinner",
     "requires": "{canReachLocation(W3D7 - Anguis Cantus)} AND |Draco Cantus Key|",
@@ -1186,6 +1213,7 @@
       "W3D7"
     ],
     "sort-key":"5"
-  }
+  },
+  
 ]
 }

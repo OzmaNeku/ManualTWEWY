@@ -46,6 +46,13 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove: list[str] = [] # List of location names
 
     # Add your code here to calculate which locations to remove
+    goal = get_option_value(multiworld, player, "goal")
+    if goal== 0:
+        locationNamesToRemove.append("W1D7 - Defeat Ovis Cantus (Alternate)")
+    elif goal == 1:
+        locationNamesToRemove.append("W2D7 - Defeat Leo Cantus (Alternate)")
+    elif goal == 2:
+        locationNamesToRemove.append("W3D7 - Draco Cantus fight (Alternate)")
 
     for region in multiworld.regions:
         if region.player == player:
