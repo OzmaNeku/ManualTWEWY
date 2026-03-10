@@ -266,7 +266,7 @@
     "sort-key":"4"
   },
   {
-    "name": "W1D4 - Loose Button ",
+    "name": "W1D4 - PANTS, OFF!",
     "region": "Shibu Department Store",
     "requires": "|104 Building| AND |Scramble Crossing| AND |Shibu Department Store|",
     "category": [
@@ -403,7 +403,7 @@
   {
     "name": "W1D6 - Clear optional wall to AMX",
     "region": "Center Street Entrance",
-    "requires": "|Scramble Crossing| AND |Center Street Entrance|",
+    "requires": "|Scramble Crossing| AND |Center Street Entrance| AND {canReachLocation(W1D6 - Imprint at Center Street)}",
     "category": [
       "W1D6"
     ],
@@ -485,7 +485,7 @@
   {
     "name": "W2D1 - Form Pact with Joshua",
     "region": "Statue of Hachiko",
-    "requires": "|Scramble Crossing| AND |Statue of Hachiko",
+    "requires": "|Scramble Crossing| AND |Statue of Hachiko|",
     "category": [
       "W2D1"
     ],
@@ -982,7 +982,7 @@
   {
     "name": "W3D2 - Pteropus Canor concert stage battle",
     "region": "A-East",
-    "requires": "{canReachLocation(W3D2 - Entrance to concert stage Tenor Reaper battle)}",
+    "requires": "{canReachLocation(W3D2 - A-East 777 & Tenor Reaper battle)}",
     "category":[
       "W3D2"
     ],
