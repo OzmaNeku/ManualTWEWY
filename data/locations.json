@@ -11,7 +11,7 @@
     "sort-key": "1"
   },
   {
-    "name": "W1D1 - Drag and Neku Combat Tutorial",
+    "name": "W1D1 - Drag Tutorial and Neku Combat Tutorial",
     "region": "Statue of Hachiko",
     "requires": "|Statue of Hachiko|",
     "category": [
@@ -20,13 +20,22 @@
     "sort-key": "2"
   },
   {
-    "name": "W1D1 - Partner Tutorial",
-    "region": "104 Building",
-    "requires": "|Statue of Hachiko| AND |104 Building|",
+    "name": "W1D1 - Form Pact with Shiki",
+    "region": "Statue of Hachiko",
+    "requires": "{canReachLocation(W1D1 - Drag Tutorial and Neku Combat Tutorial)}",
     "category": [
       "W1D1"
     ],
     "sort-key": "3"
+  },
+  {
+    "name": "W1D1 - Partner Tutorial",
+    "region": "104 Building",
+    "requires": "|Statue of Hachiko| AND |104 Building| AND {canReachLocation(W1D1 - Form Pact with Shiki)}",
+    "category": [
+      "W1D1"
+    ],
+    "sort-key": "4"
   },
   {
     "name": "W1D1 - Partnered Combat Battle",
@@ -35,7 +44,7 @@
     "category": [
       "W1D1"
     ],
-    "sort-key": "4"
+    "sort-key": "5"
   },
   {
     "name": "W1D1 - Grizzly Battle",
@@ -45,7 +54,7 @@
       "W1D1"
     ]
     ,
-    "sort-key": "5"
+    "sort-key": "6"
   },
   {
     "name": "W1D2 - Attempt to leave Station Underpass",
@@ -140,7 +149,7 @@
     "sort-key": "10"
   },
   {
-    "name": "W1D3 - Flashback",
+    "name": "W1D3 - Reunite with Shiki",
     "region": "A-East",
     "requires": "|A-East|",
     "category": [
@@ -149,22 +158,13 @@
     "sort-key": "1"
   },
   {
-    "name": "W1D3 - Reunite with Shiki",
+    "name": "W1D3 - Exit to A-East and talk to 777",
     "region": "A-East",
     "requires": "|A-East|",
     "category": [
       "W1D3"
     ],
-    "sort-key": "2"
-  },
-  {
-    "name": "W1D3 - Exit to A-East",
-    "region": "A-East",
-    "requires": "|A-East|",
-    "category": [
-      "W1D3"
-    ],
-    "sort-key":"3"
+    "sort-key":"2"
   },
   {
     "name": "W1D3 - Enter a shop",
@@ -173,25 +173,25 @@
     "category": [
       "W1D3"
     ],
-    "sort-key":"4"
+    "sort-key":"3"
   },
   {
-    "name": "W1D3 -  Harmonizer Pin Flashback",
+    "name": "W1D3 -  Clear wall to Dogenzaka",
     "region": "A-East",
     "requires": "|A-East|",
     "category": [
       "W1D3"
     ],
-    "sort-key":"5"
+    "sort-key":"4"
   },
   {
-    "name": "W1D3 - Free the tech from the Noise",
+    "name": "W1D3 - Free the tech from the Noise outside Ramen-don",
     "region": "Dogenzaka",
     "requires": "|A-East| AND |Dogenzaka|",
     "category": [
       "W1D3"
     ],
-    "sort-key":"6"
+    "sort-key":"5"
   },
   {
     "name": "W1D3 - Clear wall to Shibukyu Main Store",
@@ -200,7 +200,7 @@
     "category": [
       "W1D3"
     ],
-    "sort-key":"7"
+    "sort-key":"6"
   },
   {
     "name": "W1D3 - Learn about Memes",
@@ -209,7 +209,7 @@
     "category": [
       "W1D3"
     ],
-    "sort-key":"8"
+    "sort-key":"7"
   },
   {
     "name": "W1D3 - Get Fuse meme from A-East",
@@ -218,7 +218,7 @@
     "category": [
       "W1D3"
     ],
-    "sort-key":"9"
+    "sort-key":"8"
   },
   {
     "name": "W1D3 - Defeat Vespertilio Canor",
@@ -227,7 +227,7 @@
     "category": [
       "W1D3"
     ],
-    "sort-key":"10"
+    "sort-key":"9"
   },
   {
     "name": "W1D4 - Speak to Beat and Rhyme",
@@ -483,31 +483,40 @@
     "sort-key":"3"
   },
   {
-    "name": "W2D1 - Win first battle with Joshua",
+    "name": "W2D1 - Form Pact with Joshua",
     "region": "Statue of Hachiko",
-    "requires": "|Scramble Crossing| AND |Statue of Hachiko|",
+    "requires": "|Scramble Crossing| AND |Statue of Hachiko",
     "category": [
       "W2D1"
     ],
-    "sort-key":"1"
+    "sort-key": "1"
   },
   {
-    "name": "W2D1 - Clear wall to 104 Building",
-    "region": "Scramble Crossing",
-    "requires": "|Scramble Crossing| AND {canReachLocation(W2D1 - Win first battle with Joshua)}",
+    "name": "W2D1 - Win first battle with Joshua",
+    "region": "Statue of Hachiko",
+    "requires": "{canReachLocation(W2D1 - Form Pact with Joshua)}",
     "category": [
       "W2D1"
     ],
     "sort-key":"2"
   },
   {
-    "name": "W2D1 - Defeat the Dub Rhino",
-    "region": "104 Building",
-    "requires": "|Scramble Crossing| AND |104 Building| AND {canReachLocation(W2D1 - Clear wall to 104 Building)}",
-    "category":  [
+    "name": "W2D1 - Clear wall to 104 Building",
+    "region": "Scramble Crossing",
+    "requires": "{canReachLocation(W2D1 - Win first battle with Joshua)}",
+    "category": [
       "W2D1"
     ],
     "sort-key":"3"
+  },
+  {
+    "name": "W2D1 - Defeat the Dub Rhino",
+    "region": "104 Building",
+    "requires": "|104 Building| AND {canReachLocation(W2D1 - Clear wall to 104 Building)}",
+    "category":  [
+      "W2D1"
+    ],
+    "sort-key":"4"
   },
   {
     "name": "W2D2 - Free Yammer from the Noise",
@@ -881,7 +890,7 @@
     "sort-key": "4"
   },
   {
-    "name": "W3D1 - Partner with Beat",
+    "name": "W3D1 - Form Pact with Beat",
     "region": "Statue of Hachiko",
     "requires": "|Scramble Crossing| AND |Statue of Hachiko|",
     "category":[
@@ -892,7 +901,7 @@
   {
     "name": "W3D1 - Win first battle with Beat",
     "region": "Statue of Hachiko",
-    "requires": "{canReachLocation(W3D1 - Partner with Beat)}",
+    "requires": "{canReachLocation(W3D1 - Form Pact with Beat)}",
     "category":[
       "W3D1"
     ],
@@ -971,22 +980,13 @@
     "sort-key":"4"
   },
   {
-    "name": "W3D2 - Entrance to concert stage Tenor Reaper battle",
-    "region": "A-East",
-    "requires": "{canReachLocation(W3D2 - A-East 777 & Tenor Reaper battle)}",
-    "category":[
-      "W3D2"
-    ],
-    "sort-key":"5"
-  },
-  {
     "name": "W3D2 - Pteropus Canor concert stage battle",
     "region": "A-East",
     "requires": "{canReachLocation(W3D2 - Entrance to concert stage Tenor Reaper battle)}",
     "category":[
       "W3D2"
     ],
-    "sort-key":"6"
+    "sort-key":"5"
   },
   {
     "name": "W3D3 - Talk with Shrimp",
@@ -998,22 +998,13 @@
     "sort-key":"1"
   },
   {
-    "name": "W3D3 - Center Street Entrance Tenor Reaper battle",
-    "region": "Scramble Crossing",
-    "requires": "|Scramble Crossing| AND {canReachLocation(W3D3 - Talk with Shrimp)}",
-    "category":[
-      "W3D3"
-    ],
-    "sort-key":"2"
-  },
-  {
     "name": "W3D3 - Talk with Makoto and Shrimp",
     "region": "Tipsy Tose Hall",
     "requires": "|Scramble Crossing| AND |Center Street Entrance| AND |AMX| AND |Tipsy Tose Hall|",
     "category":[
       "W3D3"
     ],
-    "sort-key":"3"
+    "sort-key":"2"
   },
   {
     "name": "W3D3 - Uzuki battle",
@@ -1022,7 +1013,7 @@
     "category":[
       "W3D3"
     ],
-    "sort-key":"4"
+    "sort-key":"3"
   },
   {
     "name": "W3D4 - Talk to Beat",
